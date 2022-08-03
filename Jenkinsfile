@@ -68,7 +68,7 @@ pipeline {
 
         post {
           failure {
-            echo 'Sending Notification'
+            echo 'Sending Notification to the user'
           }
         }
     }
